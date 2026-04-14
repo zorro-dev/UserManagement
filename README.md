@@ -11,6 +11,7 @@ A Spring Boot REST API for managing users. The project demonstrates a clean CRUD
 - Request validation with clear field-level error messages
 - Global exception handling
 - DTO-based API responses
+- Swagger/OpenAPI documentation
 
 ## Tech Stack
 
@@ -95,6 +96,12 @@ Base URL:
 
 ```text
 http://localhost:8080/api/users
+```
+
+Swagger UI:
+
+```text
+http://localhost:8080/swagger-ui.html
 ```
 
 ## API Endpoints
